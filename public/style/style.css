@@ -160,11 +160,6 @@
   width: 100%;
   align-items: center;
 }
-.container .body .menu_body .list_menu:focus {
-  color: #ffffff;
-  background-color: #007882;
-  border-radius: 36px;
-}
 .container .body .menu_body .list_menu:hover {
   opacity: 0.8;
 }
@@ -175,6 +170,11 @@
   color: #3b4144;
   padding: 6px 36px;
   margin-right: 16px;
+}
+.container .body .menu_body .list1 {
+  color: #ffffff;
+  background-color: #007882;
+  border-radius: 36px;
 }
 .container .body .name_body {
   display: flex;

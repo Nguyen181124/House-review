@@ -183,12 +183,6 @@
       width: 100%;
       align-items: center;
 
-      .list_menu:focus {
-        color: #ffffff;
-        background-color: #007882;
-        border-radius: 36px;
-      }
-
       .list_menu:hover {
         opacity: 0.8;
       }
@@ -200,6 +194,12 @@
         color: #3b4144;
         padding: 6px 36px;
         margin-right: 16px;
+      }
+
+      .list1 {
+        color: #ffffff;
+        background-color: #007882;
+        border-radius: 36px;
       }
     }
 
