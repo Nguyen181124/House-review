@@ -212,7 +212,7 @@
   .container {
     .banner {
       height: 90.835px;
-      margin-top: 54px;
+      margin-top: 20px;
       .img_banner {
         width: 331px;
         height: auto;
@@ -233,6 +233,7 @@
       margin-top: 16.17px;
       margin-left: 22px;
       .name_body {
+        margin-top: 24px;
         img {
           width: 24px;
           height: 24px;
@@ -250,6 +251,7 @@
         }
       }
       .list {
+        margin-top: 24px;
         .all_list {
           display: none;
         }

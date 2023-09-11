@@ -222,7 +222,7 @@
   .container {
     .banner {
       height: 90.835px;
-      margin-top: 54px;
+      margin-top: 20px;
       .img_banner {
         width: 331px;
         height: auto;
@@ -241,7 +241,8 @@
       width: 331px;
       margin: unset;
       margin-top: 16.17px;
-      margin-left: 22px;
+      margin-left: auto;
+      margin-right: auto;
       .menu_body {
         width: 100%;
         overflow-x: scroll;
@@ -260,13 +261,14 @@
         }
       }
       .list {
+        margin-top: 40px;
         .all_list {
           display: none;
         }
         .all_list_responsive {
           display: inline;
           .more_list_responsive {
-            margin-top: 24.45px;
+            margin-top: 34px;
             .title_list {
               a {
                 text-decoration: none;
@@ -293,6 +295,7 @@
                 letter-spacing: 0.175px;
                 margin-top: auto;
                 margin-bottom: auto;
+                margin-right: 6px;
               }
               .ellipse {
                 margin-right: 6px;

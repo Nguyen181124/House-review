@@ -291,7 +291,7 @@
   }
   .container .banner {
     height: 90.835px;
-    margin-top: 54px;
+    margin-top: 20px;
   }
   .container .banner .img_banner {
     width: 331px;
@@ -393,11 +393,26 @@
     display: inline-flex;
     margin-top: 4px;
   }
+  .container .body .video_body .gradient_video_respon .information_video .view_video {
+    margin-right: 8px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: 0.015px;
+  }
   .container .body .video_body .gradient_video_respon .information_video .ellipse {
     margin-left: 6.6px;
   }
   .container .body .video_body .gradient_video_respon .information_video .date {
     margin-left: 6.6px;
+    margin-left: 8px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: 0.015px;
+    opacity: 0.5;
   }
   .container .body .all_videos .videos {
     flex-direction: column;

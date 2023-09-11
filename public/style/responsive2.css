@@ -178,7 +178,7 @@
   }
   .container .banner {
     height: 90.835px;
-    margin-top: 54px;
+    margin-top: 20px;
   }
   .container .banner .img_banner {
     width: 331px;
@@ -197,7 +197,8 @@
     width: 331px;
     margin: unset;
     margin-top: 16.17px;
-    margin-left: 22px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .container .body .menu_body {
     width: 100%;
@@ -216,6 +217,9 @@
   .container .body .menu_body .list2 {
     color: #ffffff;
   }
+  .container .body .list {
+    margin-top: 40px;
+  }
   .container .body .list .all_list {
     display: none;
   }
@@ -223,7 +227,7 @@
     display: inline;
   }
   .container .body .list .all_list_responsive .more_list_responsive {
-    margin-top: 24.45px;
+    margin-top: 34px;
   }
   .container .body .list .all_list_responsive .more_list_responsive .title_list a {
     text-decoration: none;
@@ -250,6 +254,7 @@
     letter-spacing: 0.175px;
     margin-top: auto;
     margin-bottom: auto;
+    margin-right: 6px;
   }
   .container .body .list .all_list_responsive .more_list_responsive .information_list .ellipse {
     margin-right: 6px;

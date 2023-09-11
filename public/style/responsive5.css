@@ -168,7 +168,7 @@
   }
   .container .banner {
     height: 90.835px;
-    margin-top: 54px;
+    margin-top: 20px;
   }
   .container .banner .img_banner {
     width: 331px;
@@ -189,6 +189,9 @@
     margin-top: 16.17px;
     margin-left: 22px;
   }
+  .container .body .name_body {
+    margin-top: 24px;
+  }
   .container .body .name_body img {
     width: 24px;
     height: 24px;
@@ -203,6 +206,9 @@
     font-weight: 700;
     line-height: 27px;
     letter-spacing: -0.21px;
+  }
+  .container .body .list {
+    margin-top: 24px;
   }
   .container .body .list .all_list {
     display: none;
