@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="show_me">Show me</button>
+    <button id="close_me">Show me</button>
+
+    <div id="content" style="display: none;">
+        Chiem lay em di
+    </div>
+
+
+    <script>
+        btnShowMe = document.getElementById('show_me');
+        content = document.getElementById('content')
+        btnShowMe.onclick = function(){
+            content.style.display = "block"
+        }
+
+        btnShowMe = document.getElementById('close_me');
+        content = document.getElementById('content')
+        btnShowMe.onclick = function(){
+            content.style.display = "none"
+        }
+    </script>
+</body>
+</html>

@@ -77,11 +77,24 @@
     }
   }
   .container {
+    margin-top: 120px;
     .news {
       width: 90%;
     }
     .post {
       width: 90%;
+    }
+  }
+  #menu_responsive {
+    .action_menu {
+      .account {
+        .log_in {
+          width: 43%;
+        }
+        .register {
+          width: 43%;
+        }
+      }
     }
   }
 }
@@ -95,8 +108,12 @@
     }
   }
   .container {
+    margin-top: 120px;
     .news {
       .news_body {
+        .title_news {
+          margin-top: 30.5px;
+        }
         .all_information_news {
           .share_news {
             .mail {
@@ -149,6 +166,18 @@
       }
     }
   }
+  #menu_responsive {
+    .action_menu {
+      .account {
+        .log_in {
+          width: 40%;
+        }
+        .register {
+          width: 40%;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 425px) {
@@ -183,6 +212,32 @@
         .column {
           .column_text {
             display: none;
+          }
+        }
+      }
+      .news_body {
+        .title_news {
+          margin-top: 30.5px;
+        }
+        .all_img_news {
+          flex-direction: column;
+          .img_left {
+            width: 100%;
+            img {
+              width: 100%;
+            }
+          }
+          .img_right {
+            flex-direction: row;
+            width: 100%;
+            height: 161px;
+            justify-content: space-between;
+            .more_img1{
+              width: 49%;
+            }
+            .more_img2 {
+              width: 49%;
+            }
           }
         }
       }
@@ -233,6 +288,7 @@
       .post_header {
         .left_header {
           p {
+            margin-top: 30px;
             font-size: 14px;
             font-style: normal;
             font-weight: 600;
@@ -266,7 +322,7 @@
       .all_list_responsive {
         display: inline;
         .more_list_responsive {
-          margin-top: 34px;
+          margin-top: 30px;
           .title_list {
             a {
               text-decoration: none;
@@ -351,6 +407,18 @@
               }
             }
           }
+        }
+      }
+    }
+  }
+  #menu_responsive {
+    .action_menu {
+      .account {
+        .log_in {
+          width: 32%;
+        }
+        .register {
+          width: 32%;
         }
       }
     }

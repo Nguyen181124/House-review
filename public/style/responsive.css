@@ -59,6 +59,9 @@ mobile: <740px
   .header .information_header .avatar {
     margin-right: 44px;
   }
+  .container {
+    padding-top: 80px;
+  }
   .container .body .post_body .more_post .list_post .content_post {
     display: none;
   }
@@ -102,6 +105,9 @@ mobile: <740px
   }
   .header .profile_header {
     display: none;
+  }
+  .container {
+    padding-top: 80px;
   }
   .container .banner {
     height: 191px;
@@ -226,6 +232,9 @@ mobile: <740px
   }
   .header .information_header .avatar {
     margin-right: 22px;
+  }
+  .container {
+    padding-top: 80px;
   }
   .container .banner {
     height: 90.835px;

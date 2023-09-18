@@ -37,6 +37,9 @@
   .header .information_header .post_header {
     display: none;
   }
+  .container {
+    padding-top: 80px;
+  }
   .container .banner {
     height: 257px;
     margin-top: 54px;
@@ -68,6 +71,9 @@
   }
   .header .profile_header {
     display: none;
+  }
+  .container {
+    padding-top: 80px;
   }
   .container .banner {
     height: 191px;
@@ -288,6 +294,9 @@
   }
   .header .information_header .heart {
     margin-right: 18px;
+  }
+  .container {
+    padding-top: 80px;
   }
   .container .banner {
     height: 90.835px;

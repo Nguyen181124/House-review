@@ -23,7 +23,10 @@
   display: inline-flex;
   margin-bottom: 6px;
 }
-.information_post .type_post {
+.information_post a {
+  text-decoration: none;
+}
+.information_post a .type_post {
   font-size: 14px;
   font-style: normal;
   line-height: normal;
@@ -93,6 +96,9 @@
 .reponsive_logo {
   display: none;
 }
+.reponsive_logo #reponsive_logo_menu {
+  margin-right: 12px;
+}
 
 .information_header .avatar {
   margin-right: 48px;
@@ -100,7 +106,7 @@
 .information_header .heart {
   margin-right: 24px;
 }
-.information_header .post_header .post {
+.information_header .post_header .post, .information_header .post_header #menu_responsive .action_menu .account .register, #menu_responsive .action_menu .account .information_header .post_header .register, .information_header .post_header #menu_responsive .action_menu .account .log_in, #menu_responsive .action_menu .account .information_header .post_header .log_in {
   border: 0;
   color: #ffffff;
   margin-right: 24px;
@@ -109,7 +115,7 @@
   background-color: #d93c23;
   text-decoration: none;
 }
-.information_header .post_header .post:hover {
+.information_header .post_header .post:hover, .information_header .post_header #menu_responsive .action_menu .account .register:hover, #menu_responsive .action_menu .account .information_header .post_header .register:hover, .information_header .post_header #menu_responsive .action_menu .account .log_in:hover, #menu_responsive .action_menu .account .information_header .post_header .log_in:hover {
   opacity: 0.8;
 }
 .information_header .profile_header {
@@ -187,7 +193,10 @@
   margin-bottom: 6px;
   align-items: center;
 }
-.container .news .news_body .all_information_news .information_news .type_post {
+.container .news .news_body .all_information_news .information_news a {
+  text-decoration: none;
+}
+.container .news .news_body .all_information_news .information_news a .type_post {
   font-size: 14px;
   font-style: normal;
   line-height: normal;
@@ -354,21 +363,21 @@
   background: #e6e6e6;
   margin-right: 16px;
 }
-.container .post {
+.container .post, .container #menu_responsive .action_menu .account .register, #menu_responsive .action_menu .account .container .register, .container #menu_responsive .action_menu .account .log_in, #menu_responsive .action_menu .account .container .log_in {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 36px;
 }
-.container .post .post_header {
+.container .post .post_header, .container #menu_responsive .action_menu .account .register .post_header, #menu_responsive .action_menu .account .container .register .post_header, .container #menu_responsive .action_menu .account .log_in .post_header, #menu_responsive .action_menu .account .container .log_in .post_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.container .post .post_header .left_header {
+.container .post .post_header .left_header, .container #menu_responsive .action_menu .account .register .post_header .left_header, #menu_responsive .action_menu .account .container .register .post_header .left_header, .container #menu_responsive .action_menu .account .log_in .post_header .left_header, #menu_responsive .action_menu .account .container .log_in .post_header .left_header {
   display: flex;
 }
-.container .post .post_header .left_header p {
+.container .post .post_header .left_header p, .container #menu_responsive .action_menu .account .register .post_header .left_header p, #menu_responsive .action_menu .account .container .register .post_header .left_header p, .container #menu_responsive .action_menu .account .log_in .post_header .left_header p, #menu_responsive .action_menu .account .container .log_in .post_header .left_header p {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -376,7 +385,7 @@
   letter-spacing: 0.027px;
   margin-right: 16px;
 }
-.container .post .post_header .left_header a {
+.container .post .post_header .left_header a, .container #menu_responsive .action_menu .account .register .post_header .left_header a, #menu_responsive .action_menu .account .container .register .post_header .left_header a, .container #menu_responsive .action_menu .account .log_in .post_header .left_header a, #menu_responsive .action_menu .account .container .log_in .post_header .left_header a {
   text-decoration: none;
   display: inline-flex;
   padding: 6px 36px;
@@ -392,53 +401,53 @@
   letter-spacing: 0.175px;
   color: #ffffff;
 }
-.container .post .post_header .right_header a {
+.container .post .post_header .right_header a, .container #menu_responsive .action_menu .account .register .post_header .right_header a, #menu_responsive .action_menu .account .container .register .post_header .right_header a, .container #menu_responsive .action_menu .account .log_in .post_header .right_header a, #menu_responsive .action_menu .account .container .log_in .post_header .right_header a {
   text-decoration: none;
 }
-.container .post .post_header .right_header a p {
+.container .post .post_header .right_header a p, .container #menu_responsive .action_menu .account .register .post_header .right_header a p, #menu_responsive .action_menu .account .container .register .post_header .right_header a p, .container #menu_responsive .action_menu .account .log_in .post_header .right_header a p, #menu_responsive .action_menu .account .container .log_in .post_header .right_header a p {
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 22.5px; /* 150% */
   letter-spacing: 0.015px;
 }
-.container .post .post_header .right_header a .responsive {
+.container .post .post_header .right_header a .responsive, .container #menu_responsive .action_menu .account .register .post_header .right_header a .responsive, #menu_responsive .action_menu .account .container .register .post_header .right_header a .responsive, .container #menu_responsive .action_menu .account .log_in .post_header .right_header a .responsive, #menu_responsive .action_menu .account .container .log_in .post_header .right_header a .responsive {
   display: none;
 }
-.container .post .all_list {
+.container .post .all_list, .container #menu_responsive .action_menu .account .register .all_list, #menu_responsive .action_menu .account .container .register .all_list, .container #menu_responsive .action_menu .account .log_in .all_list, #menu_responsive .action_menu .account .container .log_in .all_list {
   margin-top: 36.5px;
 }
-.container .post .all_list .more_list {
+.container .post .all_list .more_list, .container #menu_responsive .action_menu .account .register .all_list .more_list, #menu_responsive .action_menu .account .container .register .all_list .more_list, .container #menu_responsive .action_menu .account .log_in .all_list .more_list, #menu_responsive .action_menu .account .container .log_in .all_list .more_list {
   display: flex;
   margin-bottom: 36px;
 }
-.container .post .all_list .more_list .img_list {
+.container .post .all_list .more_list .img_list, .container #menu_responsive .action_menu .account .register .all_list .more_list .img_list, #menu_responsive .action_menu .account .container .register .all_list .more_list .img_list, .container #menu_responsive .action_menu .account .log_in .all_list .more_list .img_list, #menu_responsive .action_menu .account .container .log_in .all_list .more_list .img_list {
   width: 336px;
-  height: 220px;
+  height: 200px;
   flex-shrink: 0;
 }
-.container .post .all_list .more_list .img_list #img {
+.container .post .all_list .more_list .img_list #img, .container #menu_responsive .action_menu .account .register .all_list .more_list .img_list #img, #menu_responsive .action_menu .account .container .register .all_list .more_list .img_list #img, .container #menu_responsive .action_menu .account .log_in .all_list .more_list .img_list #img, #menu_responsive .action_menu .account .container .log_in .all_list .more_list .img_list #img {
   position: absolute;
   width: 336px;
-  height: 220px;
+  height: 200px;
 }
-.container .post .all_list .more_list .img_list #like_list {
+.container .post .all_list .more_list .img_list #like_list, .container #menu_responsive .action_menu .account .register .all_list .more_list .img_list #like_list, #menu_responsive .action_menu .account .container .register .all_list .more_list .img_list #like_list, .container #menu_responsive .action_menu .account .log_in .all_list .more_list .img_list #like_list, #menu_responsive .action_menu .account .container .log_in .all_list .more_list .img_list #like_list {
   position: absolute;
   margin-left: 288px;
   margin-top: 24px;
 }
-.container .post .all_list .more_list .all_information_list {
+.container .post .all_list .more_list .all_information_list, .container #menu_responsive .action_menu .account .register .all_list .more_list .all_information_list, #menu_responsive .action_menu .account .container .register .all_list .more_list .all_information_list, .container #menu_responsive .action_menu .account .log_in .all_list .more_list .all_information_list, #menu_responsive .action_menu .account .container .log_in .all_list .more_list .all_information_list {
   margin-left: 24px;
   margin-top: auto;
   margin-bottom: auto;
 }
-.container .post .all_list .more_list .all_information_list .title_list_respon {
+.container .post .all_list .more_list .all_information_list .title_list_respon, .container #menu_responsive .action_menu .account .register .all_list .more_list .all_information_list .title_list_respon, #menu_responsive .action_menu .account .container .register .all_list .more_list .all_information_list .title_list_respon, .container #menu_responsive .action_menu .account .log_in .all_list .more_list .all_information_list .title_list_respon, #menu_responsive .action_menu .account .container .log_in .all_list .more_list .all_information_list .title_list_respon {
   display: none;
 }
-.container .post .all_list .more_list .all_information_list .title_list a {
+.container .post .all_list .more_list .all_information_list .title_list a, .container #menu_responsive .action_menu .account .register .all_list .more_list .all_information_list .title_list a, #menu_responsive .action_menu .account .container .register .all_list .more_list .all_information_list .title_list a, .container #menu_responsive .action_menu .account .log_in .all_list .more_list .all_information_list .title_list a, #menu_responsive .action_menu .account .container .log_in .all_list .more_list .all_information_list .title_list a {
   text-decoration: none;
 }
-.container .post .all_list .more_list .all_information_list .title_list a p {
+.container .post .all_list .more_list .all_information_list .title_list a p, .container #menu_responsive .action_menu .account .register .all_list .more_list .all_information_list .title_list a p, #menu_responsive .action_menu .account .container .register .all_list .more_list .all_information_list .title_list a p, .container #menu_responsive .action_menu .account .log_in .all_list .more_list .all_information_list .title_list a p, #menu_responsive .action_menu .account .container .log_in .all_list .more_list .all_information_list .title_list a p {
   color: #3b4144;
   font-size: 18px;
   font-style: normal;
@@ -446,13 +455,13 @@
   line-height: 27px;
   letter-spacing: 0.027px;
 }
-.container .post .all_list .more_list .all_information_list .title_list a p:hover {
+.container .post .all_list .more_list .all_information_list .title_list a p:hover, .container #menu_responsive .action_menu .account .register .all_list .more_list .all_information_list .title_list a p:hover, #menu_responsive .action_menu .account .container .register .all_list .more_list .all_information_list .title_list a p:hover, .container #menu_responsive .action_menu .account .log_in .all_list .more_list .all_information_list .title_list a p:hover, #menu_responsive .action_menu .account .container .log_in .all_list .more_list .all_information_list .title_list a p:hover {
   color: #007882;
 }
-.container .post .all_list .more_list .all_information_list .information_list {
+.container .post .all_list .more_list .all_information_list .information_list, .container #menu_responsive .action_menu .account .register .all_list .more_list .all_information_list .information_list, #menu_responsive .action_menu .account .container .register .all_list .more_list .all_information_list .information_list, .container #menu_responsive .action_menu .account .log_in .all_list .more_list .all_information_list .information_list, #menu_responsive .action_menu .account .container .log_in .all_list .more_list .all_information_list .information_list {
   display: inline-flex;
 }
-.container .post .all_list .more_list .all_information_list .information_list .type_list {
+.container .post .all_list .more_list .all_information_list .information_list .type_list, .container #menu_responsive .action_menu .account .register .all_list .more_list .all_information_list .information_list .type_list, #menu_responsive .action_menu .account .container .register .all_list .more_list .all_information_list .information_list .type_list, .container #menu_responsive .action_menu .account .log_in .all_list .more_list .all_information_list .information_list .type_list, #menu_responsive .action_menu .account .container .log_in .all_list .more_list .all_information_list .information_list .type_list {
   margin-right: 8.8px;
   color: #007882;
   font-size: 14px;
@@ -463,10 +472,10 @@
   margin-top: auto;
   margin-bottom: auto;
 }
-.container .post .all_list .more_list .all_information_list .information_list .ellipse {
+.container .post .all_list .more_list .all_information_list .information_list .ellipse, .container #menu_responsive .action_menu .account .register .all_list .more_list .all_information_list .information_list .ellipse, #menu_responsive .action_menu .account .container .register .all_list .more_list .all_information_list .information_list .ellipse, .container #menu_responsive .action_menu .account .log_in .all_list .more_list .all_information_list .information_list .ellipse, #menu_responsive .action_menu .account .container .log_in .all_list .more_list .all_information_list .information_list .ellipse {
   margin-right: 8.8px;
 }
-.container .post .all_list .more_list .all_information_list .information_list .user_list {
+.container .post .all_list .more_list .all_information_list .information_list .user_list, .container #menu_responsive .action_menu .account .register .all_list .more_list .all_information_list .information_list .user_list, #menu_responsive .action_menu .account .container .register .all_list .more_list .all_information_list .information_list .user_list, .container #menu_responsive .action_menu .account .log_in .all_list .more_list .all_information_list .information_list .user_list, #menu_responsive .action_menu .account .container .log_in .all_list .more_list .all_information_list .information_list .user_list {
   color: #3b4144;
   font-size: 15px;
   font-style: normal;
@@ -475,7 +484,7 @@
   letter-spacing: 0.015px;
   margin-right: 8.8px;
 }
-.container .post .all_list .more_list .all_information_list .information_list .date_list {
+.container .post .all_list .more_list .all_information_list .information_list .date_list, .container #menu_responsive .action_menu .account .register .all_list .more_list .all_information_list .information_list .date_list, #menu_responsive .action_menu .account .container .register .all_list .more_list .all_information_list .information_list .date_list, .container #menu_responsive .action_menu .account .log_in .all_list .more_list .all_information_list .information_list .date_list, #menu_responsive .action_menu .account .container .log_in .all_list .more_list .all_information_list .information_list .date_list {
   color: #3b4144;
   font-size: 15px;
   font-style: normal;
@@ -485,7 +494,7 @@
   opacity: 0.5;
   margin-right: 8.8px;
 }
-.container .post .all_list .more_list .all_information_list .content_list p {
+.container .post .all_list .more_list .all_information_list .content_list p, .container #menu_responsive .action_menu .account .register .all_list .more_list .all_information_list .content_list p, #menu_responsive .action_menu .account .container .register .all_list .more_list .all_information_list .content_list p, .container #menu_responsive .action_menu .account .log_in .all_list .more_list .all_information_list .content_list p, #menu_responsive .action_menu .account .container .log_in .all_list .more_list .all_information_list .content_list p {
   color: #3b4144;
   font-size: 16px;
   font-style: normal;
@@ -494,8 +503,94 @@
   letter-spacing: 0.08px;
   opacity: 0.5;
 }
-.container .post .all_list_responsive {
+.container .post .all_list_responsive, .container #menu_responsive .action_menu .account .register .all_list_responsive, #menu_responsive .action_menu .account .container .register .all_list_responsive, .container #menu_responsive .action_menu .account .log_in .all_list_responsive, #menu_responsive .action_menu .account .container .log_in .all_list_responsive {
   display: none;
+}
+
+#menu_responsive {
+  width: 100%;
+  background-color: #ffffff;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#menu_responsive .close_menu {
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+#menu_responsive .close_menu #close {
+  margin-right: 16px;
+}
+#menu_responsive .list_menu {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  gap: 50px;
+}
+#menu_responsive .list_menu a {
+  color: #272727;
+  text-decoration: none;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+  letter-spacing: -0.32px;
+  opacity: 0.5;
+  gap: 25px;
+}
+#menu_responsive .list_menu a:focus {
+  color: #d93c23;
+  opacity: 1;
+}
+#menu_responsive .action_menu {
+  margin-bottom: 46px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#menu_responsive .action_menu .post, #menu_responsive .action_menu .account .register, #menu_responsive .action_menu .account .log_in {
+  text-decoration: none;
+  display: flex;
+  height: 32px;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19.8px; /* 152.308% */
+  letter-spacing: 0.163px;
+  background-color: #d93c23;
+}
+#menu_responsive .action_menu .account {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+#menu_responsive .action_menu .account .log_in {
+  width: 35%;
+  color: #3b4144;
+  background-color: #ffffff;
+  border: 1px solid #272727;
+}
+#menu_responsive .action_menu .account .register {
+  width: 35%;
+  background-color: #3b4144;
 }
 
 /*# sourceMappingURL=blog.css.map */
