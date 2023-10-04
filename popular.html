@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="public/style/style4.css" />
-    <link rel="stylesheet" href="public/style/responsive4.css" />
+    <link rel="stylesheet" href="public/style/style.css" />
+    <link rel="stylesheet" href="public/style/responsive.css" />
   </head>
   <body>
     <div class="header">
@@ -16,7 +16,7 @@
         <a class="menu_header1" href="#">Blog</a>
       </div>
       <div class="reponsive_logo">
-        <img class="reponsive_logo_menu" src="public/img/Menu (1).svg" alt="" />
+        <img id="reponsive_logo_menu" src="public/img/Menu (1).svg" alt="" />
         <img src="public/img/logo_res.png" alt="" />
       </div>
       <div class="logo">
@@ -634,5 +634,39 @@
         </div>
       </div>
     </div>
+    <div id="menu_responsive" style="display: none;top: 0;">
+      <div class="close_menu">
+        <img src="public/img/icon-close.svg" alt="" id="close">
+        <a href="index.html">
+          <img src="public/img/logo_res.png" alt="" class="logo">
+        </a>
+      </div>
+      <div class="list_menu">
+        <a href="#"> Mua nhà </a>
+        <a href="#"> Thuê nhà </a>
+        <a href="covid.html"> Khám phá </a>
+        <a href="blog.html"> Blog </a>
+      </div>
+      <div class="action_menu">
+        <a href="#" class="post">Đăng bài</a>
+        <div class="account">
+          <a href="#" class="log_in">Đăng nhập</a>
+          <a href="#" class="register">Đăng kí</a>
+        </div>
+      </div>
+    </div>
+    <script>
+      btnShowMe = document.getElementById("reponsive_logo_menu");
+      content = document.getElementById("menu_responsive");
+      btnShowMe.onclick = function () {
+        content.style.display = "flex";
+      };
+
+      btnShowMe = document.getElementById("close");
+      content = document.getElementById("menu_responsive");
+      btnShowMe.onclick = function () {
+        content.style.display = "none";
+      };
+    </script>
   </body>
 </html>

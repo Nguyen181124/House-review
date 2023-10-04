@@ -9,19 +9,21 @@
       }
     }
   }
-  .body {
-    .list {
-      .all_list {
-        .more_list {
-          .all_information_list {
-            .title_list_respon {
-              display: none;
+  .container {
+    .body {
+      .list {
+        .all_list {
+          .more_list {
+            .all_information_list {
+              .title_list_respon {
+                display: none;
+              }
             }
           }
         }
-      }
-      .all_list_responsive {
-        display: none;
+        .all_list_responsive {
+          display: none;
+        }
       }
     }
   }

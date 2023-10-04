@@ -1,12 +1,12 @@
 @media (min-width: 1025px) {
-  .header {
+  .header_blog {
     .information_header {
       .notify_img {
         display: none;
       }
     }
   }
-  .container {
+  .container_blog {
     .news {
       .news_body {
         .all_information_news {
@@ -42,7 +42,7 @@
 }
 
 @media (max-width: 1024px) {
-  .header {
+  .header_blog {
     width: 100%;
     height: 75px;
     .menu_header {
@@ -76,7 +76,7 @@
       }
     }
   }
-  .container {
+  .container_blog {
     margin-top: 120px;
     .news {
       width: 90%;
@@ -100,14 +100,14 @@
 }
 
 @media (max-width: 800px) {
-  .header {
+  .header_blog {
     width: 100%;
     height: 75px;
     .profile_header {
       display: none;
     }
   }
-  .container {
+  .container_blog {
     margin-top: 120px;
     .news {
       .news_body {
@@ -180,8 +180,52 @@
   }
 }
 
-@media (max-width: 425px) {
-  .header {
+@media (max-width: 630px) {
+  .container_blog {
+    .post {
+      .all_list {
+        .more_list {
+          .all_information_list {
+            .title_list_respon {
+              a {
+                p {
+                  color: #3b4144;
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: 600;
+                  line-height: 27px;
+                  letter-spacing: 0.027px;
+                }
+              }
+            }
+            .information_list {
+              .title_list {
+                font-size: 12px;
+              }
+              .ellipse {
+                margin-right: 5.8px;
+              }
+              .user_list {
+                font-size: 13px;
+              }
+              .date_list {
+                font-size: 13px;
+              }
+            }
+            .content_list {
+              p {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 590px) {
+  .header_blog {
     width: 100%;
     height: 80px;
     .profile_header {
@@ -205,7 +249,7 @@
       }
     }
   }
-  .container {
+  .container_blog {
     margin-top: 120px;
     .news {
       .news_header {
@@ -232,7 +276,7 @@
             width: 100%;
             height: 161px;
             justify-content: space-between;
-            .more_img1{
+            .more_img1 {
               width: 49%;
             }
             .more_img2 {
@@ -286,15 +330,17 @@
     }
     .post {
       .post_header {
+        margin-top: 30px;
         .left_header {
+          align-items: center;
           p {
-            margin-top: 30px;
             font-size: 14px;
             font-style: normal;
             font-weight: 600;
             line-height: 21px; /* 150% */
           }
           a {
+            height: 15px;
             display: inline-flex;
             padding: 4px 24px;
             justify-content: center;

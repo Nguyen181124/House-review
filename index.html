@@ -16,7 +16,7 @@
         <a class="menu_header1" href="blog.html">Blog</a>
       </div>
       <div class="reponsive_logo">
-        <img class="reponsive_logo_menu" src="public/img/Menu (1).svg" alt="" />
+        <img id="reponsive_logo_menu" src="public/img/Menu (1).svg" alt="" />
         <img src="public/img/logo_res.png" alt="" />
       </div>
       <div class="logo">
@@ -60,8 +60,8 @@
         </div>
       </div>
       <div class="body">
-        <div class="menu_body">
-          <a href="index.html" class="list_menu list1">Tất cả</a>
+        <div class="menu_body_home">
+          <a href="index.html" class="list_menu list_home">Tất cả</a>
           <a href="xahoi.html" class="list_menu list2">Xã hội</a>
           <a href="#" class="list_menu list3">Nhà đất</a>
           <a href="#" class="list_menu list4">Đời sống</a>
@@ -81,7 +81,7 @@
                 <img id="like_post" src="public/img/Heart (1).svg" alt="" />
               </a>
             </div>
-            <a href="#" class="title_post">
+            <a href="blog.html" class="title_post">
               <p>
                 Making a Housing Wage: Where Teachers, First Responders and
                 Restaurant Workers Can Live Where They Work
@@ -110,7 +110,7 @@
                   <img id="like_post" src="public/img/Heart (1).svg" alt="" />
                 </a>
               </div>
-              <a href="#" class="title_post">
+              <a href="blog.html" class="title_post">
                 <p>
                   Making a Housing Wage: Where Restaurant Workers Can They Work
                 </p>
@@ -125,8 +125,8 @@
               <div class="content_post">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
-                  diam at feugiat purus, interdum porta sed. Ac ut hendrerit enim
-                  et scelerisque nullam lorem. Libero mi velit id vitae...
+                  diam at feugiat purus, interdum porta sed. Ac ut hendrerit
+                  enim et scelerisque nullam lorem. Libero mi velit id vitae...
                 </p>
               </div>
             </div>
@@ -141,7 +141,7 @@
                   <img id="like_post" src="public/img/Heart (1).svg" alt="" />
                 </a>
               </div>
-              <a href="#" class="title_post">
+              <a href="blog.html" class="title_post">
                 <p>
                   Making a Housing Wage: Where Restaurant Workers Can They Work
                 </p>
@@ -156,8 +156,8 @@
               <div class="content_post">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
-                  diam at feugiat purus, interdum porta sed. Ac ut hendrerit enim
-                  et scelerisque nullam lorem. Libero mi velit id vitae...
+                  diam at feugiat purus, interdum porta sed. Ac ut hendrerit
+                  enim et scelerisque nullam lorem. Libero mi velit id vitae...
                 </p>
               </div>
             </div>
@@ -182,7 +182,6 @@
           <div class="videos">
             <div class="select_video">
               <div class="img_video">
-                <a href="#">
                   <img
                     id="img_video"
                     src="public/img/Rectangle 245.png"
@@ -190,14 +189,11 @@
                   />
                   <img id="like_video" src="public/img/Heart (1).svg" alt="" />
                   <div class="play_video">
-                    <div class="border_play"></div>
-                    <div class="play_video">
+                    <div class="sub_play_video">
                       <img src="public/img/Arrow - Left 2 (1).svg" alt="" />
                     </div>
                   </div>
-                </a>
-              </div>
-              <a href="#">
+              </div>                                             
                 <div class="gradient_video">
                   <p class="title_video">
                     Đi dạo cạnh đường cao tốc Pháp Vân Cầu Giẽ ổn không?
@@ -212,7 +208,6 @@
                     <p class="date">24/02/2020</p>
                   </div>
                 </div>
-              </a>
             </div>
             <div class="gradient_video_respon">
               <p class="title_video">
@@ -220,11 +215,7 @@
               </p>
               <div class="information_video">
                 <p class="view_video">5542 lượt xem</p>
-                <img
-                  class="ellipse"
-                  src="public/img/Ellipse 757.svg"
-                  alt=""
-                />
+                <img class="ellipse" src="public/img/Ellipse 757.svg" alt="" />
                 <p class="date">24/02/2020</p>
               </div>
             </div>
@@ -376,205 +367,97 @@
             </div>
           </div>
         </div>
-        <div class="list">
-          <div class="header_list">
-            <div class="name_list">
-              <p>Danh sách tin</p>
+        <div class="post">
+          <div class="post_header">
+            <div class="left_header">
+              <p>Tin cùng chuyên mục</p>
+            </div>
+            <div class="right_header">
+              <a href="#">
+                <p>Xem tất cả</p>
+                <img
+                  src="public/img/Arrow - Down 3.svg"
+                  alt=""
+                  class="responsive"
+                />
+              </a>
             </div>
           </div>
           <div class="all_list">
             <div class="more_list">
               <div class="img_list">
-                <a href="#">
+                <a href="blog.html">
                   <img src="public/img/Rectangle 4 (1).png" alt="" id="img" />
-                  <img src="public/img/Heart (1).svg" alt="" id="like_list" />
                 </a>
               </div>
               <div class="all_information_list">
                 <div class="title_list_respon">
-                  <a href="#">
+                  <a href="blog.html">
                     <p>
-                      Making a Housing Wage: Where Teachers, First Responders
-                      and ...
+                      Making a Housing Wage: Where Teachers, First Responders and
+                      ...
                     </p>
                   </a>
                 </div>
                 <div class="title_list">
-                  <a href="#">
+                  <a href="blog.html">
                     <p>
-                      Making a Housing Wage: Where Teachers, First Responders
-                      and Restaurant Workers Can Live Where They Work
+                      Making a Housing Wage: Where Teachers, First Responders and
+                      Restaurant Workers Can Live Where They Work
                     </p>
                   </a>
                 </div>
                 <div class="information_list">
                   <p class="type_list">Xã hội</p>
-                  <img
-                    class="ellipse"
-                    src="public/img/Ellipse 750.svg"
-                    alt=""
-                  />
+                  <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
                   <p class="user_list">Nguyễn Tuấn Nguyên</p>
-                  <img
-                    class="ellipse"
-                    src="public/img/Ellipse 750.svg"
-                    alt=""
-                  />
+                  <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
                   <p class="date_list">28/08/2023</p>
                 </div>
                 <div class="content_list">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
                     diam at feugiat purus, interdum porta sed. Ac ut hendrerit
-                    enim et scelerisque nullam lorem. Libero mi velit id
-                    vitae...
+                    enim et scelerisque nullam lorem. Libero mi velit id vitae...
                   </p>
                 </div>
               </div>
             </div>
             <div class="more_list">
               <div class="img_list">
-                <a href="#">
+                <a href="blog.html">
                   <img src="public/img/Rectangle 230 (1).png" alt="" id="img" />
-                  <img src="public/img/Heart (1).svg" alt="" id="like_list" />
                 </a>
               </div>
               <div class="all_information_list">
                 <div class="title_list_respon">
-                  <a href="#">
+                  <a href="blog.html">
                     <p>
-                      Making a Housing Wage: Where Teachers, First Responders
-                      and ...
+                      Making a Housing Wage: Where Teachers, First Responders and
+                      ...
                     </p>
                   </a>
                 </div>
                 <div class="title_list">
-                  <a href="#">
+                  <a href="blog.html">
                     <p>
-                      Making a Housing Wage: Where Teachers, First Responders
-                      and Restaurant Workers Can Live Where They Work
+                      Making a Housing Wage: Where Teachers, First Responders and
+                      Restaurant Workers Can Live Where They Work
                     </p>
                   </a>
                 </div>
                 <div class="information_list">
                   <p class="type_list">Xã hội</p>
-                  <img
-                    class="ellipse"
-                    src="public/img/Ellipse 750.svg"
-                    alt=""
-                  />
+                  <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
                   <p class="user_list">Nguyễn Tuấn Nguyên</p>
-                  <img
-                    class="ellipse"
-                    src="public/img/Ellipse 750.svg"
-                    alt=""
-                  />
+                  <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
                   <p class="date_list">28/08/2023</p>
                 </div>
                 <div class="content_list">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
                     diam at feugiat purus, interdum porta sed. Ac ut hendrerit
-                    enim et scelerisque nullam lorem. Libero mi velit id
-                    vitae...
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="more_list">
-              <div class="img_list">
-                <a href="#">
-                  <img src="public/img/Rectangle 4 (2).png" alt="" id="img" />
-                  <img src="public/img/Heart (1).svg" alt="" id="like_list" />
-                </a>
-              </div>
-              <div class="all_information_list">
-                <div class="title_list_respon">
-                  <a href="#">
-                    <p>
-                      Making a Housing Wage: Where Teachers, First Responders
-                      and ...
-                    </p>
-                  </a>
-                </div>
-                <div class="title_list">
-                  <a href="#">
-                    <p>
-                      Making a Housing Wage: Where Teachers, First Responders
-                      and Restaurant Workers Can Live Where They Work
-                    </p>
-                  </a>
-                </div>
-                <div class="information_list">
-                  <p class="type_list">Xã hội</p>
-                  <img
-                    class="ellipse"
-                    src="public/img/Ellipse 750.svg"
-                    alt=""
-                  />
-                  <p class="user_list">Nguyễn Tuấn Nguyên</p>
-                  <img
-                    class="ellipse"
-                    src="public/img/Ellipse 750.svg"
-                    alt=""
-                  />
-                  <p class="date_list">28/08/2023</p>
-                </div>
-                <div class="content_list">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
-                    diam at feugiat purus, interdum porta sed. Ac ut hendrerit
-                    enim et scelerisque nullam lorem. Libero mi velit id
-                    vitae...
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="more_list">
-              <div class="img_list">
-                <a href="#">
-                  <img src="public/img/Rectangle 230 (2).png" alt="" id="img" />
-                  <img src="public/img/Heart (1).svg" alt="" id="like_list" />
-                </a>
-              </div>
-              <div class="all_information_list">
-                <div class="title_list_respon">
-                  <a href="#">
-                    <p>
-                      Making a Housing Wage: Where Teachers, First Responders
-                      and ...
-                    </p>
-                  </a>
-                </div>
-                <div class="title_list">
-                  <a href="#">
-                    <p>
-                      Making a Housing Wage: Where Teachers, First Responders
-                      and Restaurant Workers Can Live Where They Work
-                    </p>
-                  </a>
-                </div>
-                <div class="information_list">
-                  <p class="type_list">Xã hội</p>
-                  <img
-                    class="ellipse"
-                    src="public/img/Ellipse 750.svg"
-                    alt=""
-                  />
-                  <p class="user_list">Nguyễn Tuấn Nguyên</p>
-                  <img
-                    class="ellipse"
-                    src="public/img/Ellipse 750.svg"
-                    alt=""
-                  />
-                  <p class="date_list">28/08/2023</p>
-                </div>
-                <div class="content_list">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
-                    diam at feugiat purus, interdum porta sed. Ac ut hendrerit
-                    enim et scelerisque nullam lorem. Libero mi velit id
-                    vitae...
+                    enim et scelerisque nullam lorem. Libero mi velit id vitae...
                   </p>
                 </div>
               </div>
@@ -583,7 +466,7 @@
           <div class="all_list_responsive">
             <div class="more_list_responsive">
               <div class="title_list">
-                <a href="#">
+                <a href="blog.html">
                   <p>
                     Making a Housing Wage: Where Teachers, First Responders and
                     Restaurant Workers...
@@ -599,9 +482,8 @@
               </div>
               <div class="under">
                 <div class="img_list">
-                  <a href="#">
+                  <a href="blog.html">
                     <img src="public/img/Rectangle 4 (1).png" alt="" id="img" />
-                    <img src="public/img/Heart (1).svg" alt="" id="like_list" />
                   </a>
                 </div>
                 <div class="content_list">
@@ -614,7 +496,209 @@
             </div>
             <div class="more_list_responsive">
               <div class="title_list">
-                <a href="#">
+                <a href="blog.html">
+                  <p>
+                    Making a Housing Wage: Where Teachers, First Responders and
+                    Restaurant Workers...
+                  </p>
+                </a>
+              </div>
+              <div class="information_list">
+                <p class="type_list">Xã hội</p>
+                <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
+                <p class="user_list">Nguyễn Tuấn Nguyên</p>
+                <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
+                <p class="date_list">28/08/2023</p>
+              </div>
+              <div class="under">
+                <div class="img_list">
+                  <a href="blog.html">
+                    <img src="public/img/Rectangle 230 (1).png" alt="" id="img" />
+                  </a>
+                </div>
+                <div class="content_list">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    diam at feugiat puru...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="more_list_responsive">
+              <div class="title_list">
+                <a href="blog.html">
+                  <p>
+                    Making a Housing Wage: Where Teachers, First Responders and
+                    Restaurant Workers...
+                  </p>
+                </a>
+              </div>
+              <div class="information_list">
+                <p class="type_list">Xã hội</p>
+                <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
+                <p class="user_list">Nguyễn Tuấn Nguyên</p>
+                <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
+                <p class="date_list">28/08/2023</p>
+              </div>
+              <div class="under">
+                <div class="img_list">
+                  <a href="blog.html">
+                    <img src="public/img/Rectangle 4 (2).png" alt="" id="img" />
+                  </a>
+                </div>
+                <div class="content_list">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    diam at feugiat puru...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="more_list_responsive">
+              <div class="title_list">
+                <a href="blog.html">
+                  <p>
+                    Making a Housing Wage: Where Teachers, First Responders and
+                    Restaurant Workers...
+                  </p>
+                </a>
+              </div>
+              <div class="information_list">
+                <p class="type_list">Xã hội</p>
+                <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
+                <p class="user_list">Nguyễn Tuấn Nguyên</p>
+                <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
+                <p class="date_list">28/08/2023</p>
+              </div>
+              <div class="under">
+                <div class="img_list">
+                  <a href="blog.html">
+                    <img src="public/img/Rectangle 230 (2).png" alt="" id="img" />
+                  </a>
+                </div>
+                <div class="content_list">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    diam at feugiat puru...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="all_list">
+            <div class="more_list">
+              <div class="img_list">
+                <a href="blog.html">
+                  <img src="public/img/Rectangle 4 (1).png" alt="" id="img" />
+                </a>
+              </div>
+              <div class="all_information_list">
+                <div class="title_list_respon">
+                  <a href="blog.html">
+                    <p>
+                      Making a Housing Wage: Where Teachers, First Responders and
+                      ...
+                    </p>
+                  </a>
+                </div>
+                <div class="title_list">
+                  <a href="blog.html">
+                    <p>
+                      Making a Housing Wage: Where Teachers, First Responders and
+                      Restaurant Workers Can Live Where They Work
+                    </p>
+                  </a>
+                </div>
+                <div class="information_list">
+                  <p class="type_list">Xã hội</p>
+                  <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
+                  <p class="user_list">Nguyễn Tuấn Nguyên</p>
+                  <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
+                  <p class="date_list">28/08/2023</p>
+                </div>
+                <div class="content_list">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    diam at feugiat purus, interdum porta sed. Ac ut hendrerit
+                    enim et scelerisque nullam lorem. Libero mi velit id vitae...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="more_list">
+              <div class="img_list">
+                <a href="blog.html">
+                  <img src="public/img/Rectangle 230 (1).png" alt="" id="img" />
+                </a>
+              </div>
+              <div class="all_information_list">
+                <div class="title_list_respon">
+                  <a href="blog.html">
+                    <p>
+                      Making a Housing Wage: Where Teachers, First Responders and
+                      ...
+                    </p>
+                  </a>
+                </div>
+                <div class="title_list">
+                  <a href="blog.html">
+                    <p>
+                      Making a Housing Wage: Where Teachers, First Responders and
+                      Restaurant Workers Can Live Where They Work
+                    </p>
+                  </a>
+                </div>
+                <div class="information_list">
+                  <p class="type_list">Xã hội</p>
+                  <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
+                  <p class="user_list">Nguyễn Tuấn Nguyên</p>
+                  <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
+                  <p class="date_list">28/08/2023</p>
+                </div>
+                <div class="content_list">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    diam at feugiat purus, interdum porta sed. Ac ut hendrerit
+                    enim et scelerisque nullam lorem. Libero mi velit id vitae...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="all_list_responsive">
+            <div class="more_list_responsive">
+              <div class="title_list">
+                <a href="blog.html">
+                  <p>
+                    Making a Housing Wage: Where Teachers, First Responders and
+                    Restaurant Workers...
+                  </p>
+                </a>
+              </div>
+              <div class="information_list">
+                <p class="type_list">Xã hội</p>
+                <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
+                <p class="user_list">Nguyễn Tuấn Nguyên</p>
+                <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
+                <p class="date_list">28/08/2023</p>
+              </div>
+              <div class="under">
+                <div class="img_list">
+                  <a href="blog.html">
+                    <img src="public/img/Rectangle 4 (1).png" alt="" id="img" />
+                  </a>
+                </div>
+                <div class="content_list">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    diam at feugiat puru...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="more_list_responsive">
+              <div class="title_list">
+                <a href="blog.html">
                   <p>
                     Making a Housing Wage: Where Teachers, First Responders and
                     Restaurant Workers...
@@ -632,162 +716,6 @@
                 <div class="img_list">
                   <a href="#">
                     <img src="public/img/Rectangle 230 (1).png" alt="" id="img" />
-                    <img src="public/img/Heart (1).svg" alt="" id="like_list" />
-                  </a>
-                </div>
-                <div class="content_list">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
-                    diam at feugiat puru...
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="more_list_responsive">
-              <div class="title_list">
-                <a href="#">
-                  <p>
-                    Making a Housing Wage: Where Teachers, First Responders and
-                    Restaurant Workers...
-                  </p>
-                </a>
-              </div>
-              <div class="information_list">
-                <p class="type_list">Xã hội</p>
-                <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
-                <p class="user_list">Nguyễn Tuấn Nguyên</p>
-                <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
-                <p class="date_list">28/08/2023</p>
-              </div>
-              <div class="under">
-                <div class="img_list">
-                  <a href="#">
-                    <img src="public/img/Rectangle 4 (2).png" alt="" id="img" />
-                    <img src="public/img/Heart (1).svg" alt="" id="like_list" />
-                  </a>
-                </div>
-                <div class="content_list">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
-                    diam at feugiat puru...
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="more_list_responsive">
-              <div class="title_list">
-                <a href="#">
-                  <p>
-                    Making a Housing Wage: Where Teachers, First Responders and
-                    Restaurant Workers...
-                  </p>
-                </a>
-              </div>
-              <div class="information_list">
-                <p class="type_list">Xã hội</p>
-                <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
-                <p class="user_list">Nguyễn Tuấn Nguyên</p>
-                <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
-                <p class="date_list">28/08/2023</p>
-              </div>
-              <div class="under">
-                <div class="img_list">
-                  <a href="#">
-                    <img src="public/img/Rectangle 230 (2).png" alt="" id="img" />
-                    <img src="public/img/Heart (1).svg" alt="" id="like_list" />
-                  </a>
-                </div>
-                <div class="content_list">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
-                    diam at feugiat puru...
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="more_list_responsive">
-              <div class="title_list">
-                <a href="#">
-                  <p>
-                    Making a Housing Wage: Where Teachers, First Responders and
-                    Restaurant Workers...
-                  </p>
-                </a>
-              </div>
-              <div class="information_list">
-                <p class="type_list">Xã hội</p>
-                <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
-                <p class="user_list">Nguyễn Tuấn Nguyên</p>
-                <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
-                <p class="date_list">28/08/2023</p>
-              </div>
-              <div class="under">
-                <div class="img_list">
-                  <a href="#">
-                    <img src="public/img/Rectangle 4 (3).png "alt="" id="img" />
-                    <img src="public/img/Heart (1).svg" alt="" id="like_list" />
-                  </a>
-                </div>
-                <div class="content_list">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
-                    diam at feugiat puru...
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="more_list_responsive">
-              <div class="title_list">
-                <a href="#">
-                  <p>
-                    Making a Housing Wage: Where Teachers, First Responders and
-                    Restaurant Workers...
-                  </p>
-                </a>
-              </div>
-              <div class="information_list">
-                <p class="type_list">Xã hội</p>
-                <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
-                <p class="user_list">Nguyễn Tuấn Nguyên</p>
-                <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
-                <p class="date_list">28/08/2023</p>
-              </div>
-              <div class="under">
-                <div class="img_list">
-                  <a href="#">
-                    <img src="public/img/Rectangle 230 (3).png" alt="" id="img" />
-                    <img src="public/img/Heart (1).svg" alt="" id="like_list" />
-                  </a>
-                </div>
-                <div class="content_list">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
-                    diam at feugiat puru...
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="more_list_responsive">
-              <div class="title_list">
-                <a href="#">
-                  <p>
-                    Making a Housing Wage: Where Teachers, First Responders and
-                    Restaurant Workers...
-                  </p>
-                </a>
-              </div>
-              <div class="information_list">
-                <p class="type_list">Xã hội</p>
-                <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
-                <p class="user_list">Nguyễn Tuấn Nguyên</p>
-                <img class="ellipse" src="public/img/Ellipse 750.svg" alt="" />
-                <p class="date_list">28/08/2023</p>
-              </div>
-              <div class="under">
-                <div class="img_list">
-                  <a href="#">
-                    <img src="public/img/Rectangle 230 (4).png" alt="" id="img" />
-                    <img src="public/img/Heart (1).svg" alt="" id="like_list" />
                   </a>
                 </div>
                 <div class="content_list">
@@ -799,13 +727,47 @@
               </div>
             </div>
           </div>
-          <div class="footer_list">
-            <div class="all_list">
-              <a href="#" class="click">Xem thêm</a>
-            </div>
+        </div>
+        <div class="footer_list">
+          <div class="all_list">
+            <a href="blog.html" class="click">Xem thêm</a>
           </div>
         </div>
       </div>
     </div>
+    <div id="menu_responsive" style="display: none; top: 0">
+      <div class="close_menu">
+        <img src="public/img/icon-close.svg" alt="" id="close" />
+        <a href="index.html">
+          <img src="public/img/logo_res.png" alt="" class="logo" />
+        </a>
+      </div>
+      <div class="list_menu">
+        <a href="#"> Mua nhà </a>
+        <a href="#"> Thuê nhà </a>
+        <a href="covid.html"> Khám phá </a>
+        <a href="blog.html"> Blog </a>
+      </div>
+      <div class="action_menu">
+        <a href="#" class="post">Đăng bài</a>
+        <div class="account">
+          <a href="#" class="log_in">Đăng nhập</a>
+          <a href="#" class="register">Đăng kí</a>
+        </div>
+      </div>
+    </div>
+    <script>
+      btnShowMe = document.getElementById("reponsive_logo_menu");
+      content = document.getElementById("menu_responsive");
+      btnShowMe.onclick = function () {
+        content.style.display = "flex";
+      };
+
+      btnShowMe = document.getElementById("close");
+      content = document.getElementById("menu_responsive");
+      btnShowMe.onclick = function () {
+        content.style.display = "none";
+      };
+    </script>
   </body>
 </html>

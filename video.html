@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="public/style/style3.css" />
-    <link rel="stylesheet" href="public/style/responsive3.css">
+    <link rel="stylesheet" href="public/style/style.css" />
+    <link rel="stylesheet" href="public/style/responsive.css">
   </head>
   <body>
     <div class="header">
@@ -16,7 +16,7 @@
         <a class="menu_header1" href="#">Blog</a>
       </div>
       <div class="reponsive_logo">
-        <img class="reponsive_logo_menu" src="public/img/Menu (1).svg" alt="" />
+        <img id="reponsive_logo_menu" src="public/img/Menu (1).svg" alt="" />
         <img src="public/img/logo_res.png" alt="" />
       </div>
       <div class="logo">
@@ -55,28 +55,28 @@
         </div>
       </div>
       <div class="body">
-        <div class="menu_body">
+        <div class="menu_body_video">
           <a href="index.html" class="list_menu list1">Tất cả</a>
           <a href="xahoi.html" class="list_menu list2">Xã hội</a>
           <a href="#" class="list_menu list3">Nhà đất</a>
           <a href="#" class="list_menu list4">Đời sống</a>
-          <a href="video.html" class="list_menu list5">Video</a>
+          <a href="video.html" class="list_menu list_video">Video</a>
         </div>
-        <div class="video_body">
+        <div class="video_body_page">
           <div class="select_video">
             <div class="img_video">
-              <a href="#">
-                <img id="img_video" src="public/img/Rectangle 245.png" alt="" />
+                <img
+                  id="img_video"
+                  src="public/img/Rectangle 245.png"
+                  alt=""
+                />
                 <img id="like_video" src="public/img/Heart (1).svg" alt="" />
                 <div class="play_video">
-                  <div class="border_play"></div>
                   <div class="play_video">
                     <img src="public/img/Arrow - Left 2 (1).svg" alt="" />
                   </div>
                 </div>
-              </a>
-            </div>
-            <a href="#">
+            </div>                                             
               <div class="gradient_video">
                 <p class="title_video">
                   Đi dạo cạnh đường cao tốc Pháp Vân Cầu Giẽ ổn không?
@@ -91,7 +91,6 @@
                   <p class="date">24/02/2020</p>
                 </div>
               </div>
-            </a>
           </div>
           <div class="gradient_video_respon">
             <p class="title_video">
@@ -108,7 +107,7 @@
             </div>
           </div>
         </div>
-        <div class="all_videos">
+        <div class="all_videos_page">
           <div class="all">
             <p>Tất cả Video</p>
           </div>
@@ -360,5 +359,39 @@
         </div>
       </div>
     </div>
+    <div id="menu_responsive" style="display: none;top: 0;">
+      <div class="close_menu">
+        <img src="public/img/icon-close.svg" alt="" id="close">
+        <a href="index.html">
+        <img src="public/img/logo_res.png" alt="" class="logo">
+      </a>
+      </div>
+      <div class="list_menu">
+        <a href="#"> Mua nhà </a>
+        <a href="#"> Thuê nhà </a>
+        <a href="covid.html"> Khám phá </a>
+        <a href="blog.html"> Blog </a>
+      </div>
+      <div class="action_menu">
+        <a href="#" class="post">Đăng bài</a>
+        <div class="account">
+          <a href="#" class="log_in">Đăng nhập</a>
+          <a href="#" class="register">Đăng kí</a>
+        </div>
+      </div>
+    </div>
+    <script>
+      btnShowMe = document.getElementById("reponsive_logo_menu");
+      content = document.getElementById("menu_responsive");
+      btnShowMe.onclick = function () {
+        content.style.display = "flex";
+      };
+
+      btnShowMe = document.getElementById("close");
+      content = document.getElementById("menu_responsive");
+      btnShowMe.onclick = function () {
+        content.style.display = "none";
+      };
+    </script>
   </body>
 </html>

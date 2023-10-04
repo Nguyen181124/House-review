@@ -7,7 +7,7 @@
   color: var(--primary-black, #3b4144);
 }
 
-.header {
+.header_blog {
   width: 100%;
   height: 75px;
   background: rgba(255, 255, 255, 0.7);
@@ -146,7 +146,7 @@
   }
 }
 
-.container {
+.container_blog {
   width: 100%;
   margin-top: 150px;
   position: absolute;
@@ -471,6 +471,10 @@
             a {
               text-decoration: none;
               p {
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
                 color: #3b4144;
                 font-size: 18px;
                 font-style: normal;
@@ -521,6 +525,10 @@
           }
           .content_list {
             p {
+              display: -webkit-box;
+              -webkit-line-clamp: 3;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
               color: #3b4144;
               font-size: 16px;
               font-style: normal;
@@ -546,7 +554,6 @@
   z-index: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   .close_menu {
     display: flex;
     width: 90%;

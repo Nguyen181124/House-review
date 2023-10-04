@@ -4,19 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="public/style/style2.css" />
-    <link rel="stylesheet" href="public/style/responsive2.css" />
+    <link rel="stylesheet" href="public/style/style.css" />
+    <link rel="stylesheet" href="public/style/responsive.css" />
   </head>
   <body>
     <div class="header">
       <div class="menu_header">
-        <a class="menu_header1" href="blog.html">Mua nhà</a>
-        <a class="menu_header1" href="blog.html">Thuê nhà</a>
-        <a class="menu_header1" href="covid.html">Khám phá</a>
+        <a class="menu_header1" href="#">Mua nhà</a>
+        <a class="menu_header1" href="#">Thuê nhà</a>
+        <a class="menu_header1" href="#">Khám phá</a>
         <a class="menu_header1" href="blog.html">Blog</a>
       </div>
       <div class="reponsive_logo">
-        <img class="reponsive_logo_menu" src="public/img/Menu (1).svg" alt="" />
+        <img id="reponsive_logo_menu" src="public/img/Menu (1).svg" alt="" />
         <img src="public/img/logo_res.png" alt="" />
       </div>
       <div class="logo">
@@ -55,14 +55,14 @@
         </div>
       </div>
       <div class="body">
-        <div class="menu_body">
+        <div class="menu_body_society">
           <a href="index.html" class="list_menu list1">Tất cả</a>
-          <a href="xahoi.html" class="list_menu list2">Xã hội</a>
-          <a href="blog.html" class="list_menu list3">Nhà đất</a>
-          <a href="blog.html" class="list_menu list4">Đời sống</a>
+          <a href="xahoi.html" class="list_menu list_society">Xã hội</a>
+          <a href="#" class="list_menu list3">Nhà đất</a>
+          <a href="#" class="list_menu list4">Đời sống</a>
           <a href="video.html" class="list_menu list5">Video</a>
         </div>
-        <div class="list">
+        <div class="post">
           <div class="all_list">
             <div class="more_list">
               <div class="img_list">
@@ -627,14 +627,47 @@
               </div>
             </div>
           </div>
-          <div class="footer_list">
-            <div class="all_list">
-              <a href="blog.html" class="click">Xem thêm</a>
-            </div>
+        </div>
+        <div class="footer_list">
+          <div class="all_list">
+            <a href="blog.html" class="click">Xem thêm</a>
           </div>
         </div>
       </div>
     </div>
+    <div id="menu_responsive" style="display: none;top: 0;">
+      <div class="close_menu">
+        <img src="public/img/icon-close.svg" alt="" id="close">
+        <a href="index.html">
+        <img src="public/img/logo_res.png" alt="" class="logo">
+      </a>
+      </div>
+      <div class="list_menu">
+        <a href="#"> Mua nhà </a>
+        <a href="#"> Thuê nhà </a>
+        <a href="covid.html"> Khám phá </a>
+        <a href="blog.html"> Blog </a>
+      </div>
+      <div class="action_menu">
+        <a href="#" class="post">Đăng bài</a>
+        <div class="account">
+          <a href="#" class="log_in">Đăng nhập</a>
+          <a href="#" class="register">Đăng kí</a>
+        </div>
+      </div>
+    </div>
+    <script>
+      btnShowMe = document.getElementById("reponsive_logo_menu");
+      content = document.getElementById("menu_responsive");
+      btnShowMe.onclick = function () {
+        content.style.display = "flex";
+      };
 
+      btnShowMe = document.getElementById("close");
+      content = document.getElementById("menu_responsive");
+      btnShowMe.onclick = function () {
+        content.style.display = "none";
+      };
+    </script>
   </body>
 </html>

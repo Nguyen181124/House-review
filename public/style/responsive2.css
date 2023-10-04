@@ -5,10 +5,10 @@
   .header .information_header .notify_img {
     display: none;
   }
-  .body .list .all_list .more_list .all_information_list .title_list_respon {
+  .container .body .list .all_list .more_list .all_information_list .title_list_respon {
     display: none;
   }
-  .body .list .all_list_responsive {
+  .container .body .list .all_list_responsive {
     display: none;
   }
 }
